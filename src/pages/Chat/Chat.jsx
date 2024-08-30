@@ -102,7 +102,7 @@ export default function Chat() {
         sm={8}
         md={9}
         sx={{
-          backgroundImage: 'url("/src/assets/chat-bg.png")',
+          backgroundImage: 'url("/assets/chat-bg.png")',
           backgroundColor: (t) =>
             t.palette.mode === "light"
               ? t.palette.grey[50]
